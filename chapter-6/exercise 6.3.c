@@ -106,8 +106,18 @@ int getword(char *w, int lim, int typeFunc(int), int *inside_quotes)
 {
     int c;
 
-    while ((c = getch()) == ' ' || c == '\n' || c == '\t')
-        ;
+    while(1) {
+        if((c = getch()) == ' ' || c == '\n' || c == '\t') continue;
+        if(c == EOF) return EOF;
+
+        if(c == '"') {
+            *inside_quotes ^= 1;
+            continue;
+        }
+
+        if(*inside_quotes) continue;
+        break;
+    }
 
     if (c == EOF) return EOF;
 
