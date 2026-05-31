@@ -1,0 +1,5806 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "getchar_eof_loop_pattern",
+        "label": "Files using the getchar()/EOF read loop pattern",
+        "nodes": [
+          "chapter_1_chapter_1_main",
+          "chapter_1_excercise_1_11_main",
+          "chapter_1_excercise_1_13_main",
+          "chapter_3_excercise_3_1_main"
+        ],
+        "relation": "participate_in",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "chapter-1/chapter-1.c"
+      },
+      {
+        "id": "bit_manipulation_exercises",
+        "label": "Chapter 2 bit manipulation cluster",
+        "nodes": [
+          "chapter_2_excercise_2_3_main",
+          "chapter_2_excercise_2_8_main",
+          "chapter_2_excercise_2_9_main",
+          "chapter_2_excercise_2_9_print_binary"
+        ],
+        "relation": "participate_in",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "chapter-2/excercise 2.9.c"
+      },
+      {
+        "id": "charset_lookup_filter_family",
+        "label": "Charset lookup table string filter functions",
+        "nodes": [
+          "chapter_2_excercise_2_4_squeeze",
+          "chapter_2_excercise_2_6_any",
+          "readme_string_charset_filter"
+        ],
+        "relation": "implement",
+        "confidence": "INFERRED",
+        "confidence_score": 0.95,
+        "source_file": "chapter-2/excercise 2.4.c"
+      },
+      {
+        "id": "hyper_sds_allocator_layer",
+        "label": "SDS pluggable allocator layer",
+        "nodes": [
+          "sds_sds_sds_malloc",
+          "sds_sds_sds_realloc",
+          "sds_sds_sds_free",
+          "sds_sdsalloc_s_malloc",
+          "sds_sdsalloc_s_realloc",
+          "sds_sdsalloc_s_free"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "opensource/sds/sdsalloc.h"
+      },
+      {
+        "id": "hyper_sds_creation_destruction_api",
+        "label": "SDS string lifecycle API (create/duplicate/free)",
+        "nodes": [
+          "sds_sds_sdsnewlen",
+          "sds_sds_sdsnew",
+          "sds_sds_sdsempty",
+          "sds_sds_sdsdup",
+          "sds_sds_sdsfree"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "opensource/sds/sds.c"
+      },
+      {
+        "id": "hyper_learner_malloc_exercises",
+        "label": "Learner pointer/malloc exercises",
+        "nodes": [
+          "pointer_pointer_and_dynamic_memory_main",
+          "pointer_pointer_as_function_returns_add",
+          "pointer_pointer_main"
+        ],
+        "relation": "participate_in",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "pointer/pointer and dynamic memory.c"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "excercise 1.13.c",
+      "file_type": "code",
+      "source_file": "chapter-1/excercise 1.13.c",
+      "source_location": "L1",
+      "id": "chapter_1_excercise_1_13_c",
+      "community": 4,
+      "norm_label": "excercise 1.13.c"
+    },
+    {
+      "label": "lower()",
+      "file_type": "code",
+      "source_file": "chapter-1/excercise 1.13.c",
+      "source_location": "L4",
+      "id": "chapter_1_excercise_1_13_lower",
+      "community": 4,
+      "norm_label": "lower()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "chapter-1/excercise 1.13.c",
+      "source_location": "L8",
+      "id": "chapter_1_excercise_1_13_main",
+      "community": 4,
+      "norm_label": "main()"
+    },
+    {
+      "label": "excercise 1.17.c",
+      "file_type": "code",
+      "source_file": "chapter-1/excercise 1.17.c",
+      "source_location": "L1",
+      "id": "chapter_1_excercise_1_17_c",
+      "community": 11,
+      "norm_label": "excercise 1.17.c"
+    },
+    {
+      "label": "get_line()",
+      "file_type": "code",
+      "source_file": "chapter-1/excercise 1.17.c",
+      "source_location": "L5",
+      "id": "chapter_1_excercise_1_17_get_line",
+      "community": 11,
+      "norm_label": "get_line()"
+    },
+    {
+      "label": "reverse()",
+      "file_type": "code",
+      "source_file": "chapter-1/excercise 1.17.c",
+      "source_location": "L18",
+      "id": "chapter_1_excercise_1_17_reverse",
+      "community": 11,
+      "norm_label": "reverse()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "chapter-1/excercise 1.17.c",
+      "source_location": "L31",
+      "id": "chapter_1_excercise_1_17_main",
+      "community": 11,
+      "norm_label": "main()"
+    },
+    {
+      "label": "chapter-1.c",
+      "file_type": "code",
+      "source_file": "chapter-1/chapter-1.c",
+      "source_location": "L1",
+      "id": "chapter_1_chapter_1_c",
+      "community": 4,
+      "norm_label": "chapter-1.c"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "chapter-1/chapter-1.c",
+      "source_location": "L3",
+      "id": "chapter_1_chapter_1_main",
+      "community": 4,
+      "norm_label": "main()"
+    },
+    {
+      "label": "excercise 1.11.c",
+      "file_type": "code",
+      "source_file": "chapter-1/excercise 1.11.c",
+      "source_location": "L1",
+      "id": "chapter_1_excercise_1_11_c",
+      "community": 4,
+      "norm_label": "excercise 1.11.c"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "chapter-1/excercise 1.11.c",
+      "source_location": "L7",
+      "id": "chapter_1_excercise_1_11_main",
+      "community": 4,
+      "norm_label": "main()"
+    },
+    {
+      "label": "excercise 1.12.c",
+      "file_type": "code",
+      "source_file": "chapter-1/excercise 1.12.c",
+      "source_location": "L1",
+      "id": "chapter_1_excercise_1_12_c",
+      "community": 4,
+      "norm_label": "excercise 1.12.c"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "chapter-1/excercise 1.12.c",
+      "source_location": "L6",
+      "id": "chapter_1_excercise_1_12_main",
+      "community": 4,
+      "norm_label": "main()"
+    },
+    {
+      "label": "opensource_test.c",
+      "file_type": "code",
+      "source_file": "opensource/opensource_test.c",
+      "source_location": "L1",
+      "id": "opensource_opensource_test_c",
+      "community": 1,
+      "norm_label": "opensource_test.c"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "opensource/opensource_test.c",
+      "source_location": "L5",
+      "id": "opensource_opensource_test_main",
+      "community": 0,
+      "norm_label": "main()"
+    },
+    {
+      "label": "sds.c",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1",
+      "id": "opensource_sds_sds_c",
+      "community": 0,
+      "norm_label": "sds.c"
+    },
+    {
+      "label": "sdsHdrSize()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L44",
+      "id": "sds_sds_sdshdrsize",
+      "community": 3,
+      "norm_label": "sdshdrsize()"
+    },
+    {
+      "label": "sdsReqType()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L60",
+      "id": "sds_sds_sdsreqtype",
+      "community": 1,
+      "norm_label": "sdsreqtype()"
+    },
+    {
+      "label": "sdsnewlen()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L89",
+      "id": "sds_sds_sdsnewlen",
+      "community": 3,
+      "norm_label": "sdsnewlen()"
+    },
+    {
+      "label": "sdsempty()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L149",
+      "id": "sds_sds_sdsempty",
+      "community": 0,
+      "norm_label": "sdsempty()"
+    },
+    {
+      "label": "sdsnew()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L154",
+      "id": "sds_sds_sdsnew",
+      "community": 0,
+      "norm_label": "sdsnew()"
+    },
+    {
+      "label": "sdsdup()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L160",
+      "id": "sds_sds_sdsdup",
+      "community": 0,
+      "norm_label": "sdsdup()"
+    },
+    {
+      "label": "sdsfree()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L165",
+      "id": "sds_sds_sdsfree",
+      "community": 0,
+      "norm_label": "sdsfree()"
+    },
+    {
+      "label": "sdsupdatelen()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L184",
+      "id": "sds_sds_sdsupdatelen",
+      "community": 9,
+      "norm_label": "sdsupdatelen()"
+    },
+    {
+      "label": "sdsclear()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L193",
+      "id": "sds_sds_sdsclear",
+      "community": 1,
+      "norm_label": "sdsclear()"
+    },
+    {
+      "label": "sdsMakeRoomFor()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L204",
+      "id": "sds_sds_sdsmakeroomfor",
+      "community": 1,
+      "norm_label": "sdsmakeroomfor()"
+    },
+    {
+      "label": "sdsRemoveFreeSpace()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L256",
+      "id": "sds_sds_sdsremovefreespace",
+      "community": 1,
+      "norm_label": "sdsremovefreespace()"
+    },
+    {
+      "label": "sdsAllocSize()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L300",
+      "id": "sds_sds_sdsallocsize",
+      "community": 1,
+      "norm_label": "sdsallocsize()"
+    },
+    {
+      "label": "sdsAllocPtr()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L307",
+      "id": "sds_sds_sdsallocptr",
+      "community": 3,
+      "norm_label": "sdsallocptr()"
+    },
+    {
+      "label": "sdsIncrLen()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L334",
+      "id": "sds_sds_sdsincrlen",
+      "community": 0,
+      "norm_label": "sdsincrlen()"
+    },
+    {
+      "label": "sdsgrowzero()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L380",
+      "id": "sds_sds_sdsgrowzero",
+      "community": 1,
+      "norm_label": "sdsgrowzero()"
+    },
+    {
+      "label": "sdscatlen()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L398",
+      "id": "sds_sds_sdscatlen",
+      "community": 0,
+      "norm_label": "sdscatlen()"
+    },
+    {
+      "label": "sdscat()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L413",
+      "id": "sds_sds_sdscat",
+      "community": 0,
+      "norm_label": "sdscat()"
+    },
+    {
+      "label": "sdscatsds()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L421",
+      "id": "sds_sds_sdscatsds",
+      "community": 0,
+      "norm_label": "sdscatsds()"
+    },
+    {
+      "label": "sdscpylen()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L427",
+      "id": "sds_sds_sdscpylen",
+      "community": 1,
+      "norm_label": "sdscpylen()"
+    },
+    {
+      "label": "sdscpy()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L440",
+      "id": "sds_sds_sdscpy",
+      "community": 0,
+      "norm_label": "sdscpy()"
+    },
+    {
+      "label": "sdsll2str()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L451",
+      "id": "sds_sds_sdsll2str",
+      "community": 1,
+      "norm_label": "sdsll2str()"
+    },
+    {
+      "label": "sdsull2str()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L494",
+      "id": "sds_sds_sdsull2str",
+      "community": 1,
+      "norm_label": "sdsull2str()"
+    },
+    {
+      "label": "sdsfromlonglong()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L526",
+      "id": "sds_sds_sdsfromlonglong",
+      "community": 1,
+      "norm_label": "sdsfromlonglong()"
+    },
+    {
+      "label": "sdscatvprintf()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L534",
+      "id": "sds_sds_sdscatvprintf",
+      "community": 0,
+      "norm_label": "sdscatvprintf()"
+    },
+    {
+      "label": "sdscatprintf()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L591",
+      "id": "sds_sds_sdscatprintf",
+      "community": 0,
+      "norm_label": "sdscatprintf()"
+    },
+    {
+      "label": "sdscatfmt()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L616",
+      "id": "sds_sds_sdscatfmt",
+      "community": 1,
+      "norm_label": "sdscatfmt()"
+    },
+    {
+      "label": "sdstrim()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L725",
+      "id": "sds_sds_sdstrim",
+      "community": 0,
+      "norm_label": "sdstrim()"
+    },
+    {
+      "label": "sdsrange()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L756",
+      "id": "sds_sds_sdsrange",
+      "community": 0,
+      "norm_label": "sdsrange()"
+    },
+    {
+      "label": "sdstolower()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L783",
+      "id": "sds_sds_sdstolower",
+      "community": 0,
+      "norm_label": "sdstolower()"
+    },
+    {
+      "label": "sdstoupper()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L790",
+      "id": "sds_sds_sdstoupper",
+      "community": 0,
+      "norm_label": "sdstoupper()"
+    },
+    {
+      "label": "sdscmp()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L807",
+      "id": "sds_sds_sdscmp",
+      "community": 0,
+      "norm_label": "sdscmp()"
+    },
+    {
+      "label": "sdssplitlen()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L835",
+      "id": "sds_sds_sdssplitlen",
+      "community": 0,
+      "norm_label": "sdssplitlen()"
+    },
+    {
+      "label": "sdsfreesplitres()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L885",
+      "id": "sds_sds_sdsfreesplitres",
+      "community": 0,
+      "norm_label": "sdsfreesplitres()"
+    },
+    {
+      "label": "sdscatrepr()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L898",
+      "id": "sds_sds_sdscatrepr",
+      "community": 0,
+      "norm_label": "sdscatrepr()"
+    },
+    {
+      "label": "is_hex_digit()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L925",
+      "id": "sds_sds_is_hex_digit",
+      "community": 0,
+      "norm_label": "is_hex_digit()"
+    },
+    {
+      "label": "hex_digit_to_int()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L932",
+      "id": "sds_sds_hex_digit_to_int",
+      "community": 0,
+      "norm_label": "hex_digit_to_int()"
+    },
+    {
+      "label": "sdssplitargs()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L973",
+      "id": "sds_sds_sdssplitargs",
+      "community": 0,
+      "norm_label": "sdssplitargs()"
+    },
+    {
+      "label": "sdsmapchars()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1092",
+      "id": "sds_sds_sdsmapchars",
+      "community": 0,
+      "norm_label": "sdsmapchars()"
+    },
+    {
+      "label": "sdsjoin()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1108",
+      "id": "sds_sds_sdsjoin",
+      "community": 0,
+      "norm_label": "sdsjoin()"
+    },
+    {
+      "label": "sdsjoinsds()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1120",
+      "id": "sds_sds_sdsjoinsds",
+      "community": 0,
+      "norm_label": "sdsjoinsds()"
+    },
+    {
+      "label": "sds_malloc()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1136",
+      "id": "sds_sds_sds_malloc",
+      "community": 0,
+      "norm_label": "sds_malloc()"
+    },
+    {
+      "label": "sds_realloc()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1137",
+      "id": "sds_sds_sds_realloc",
+      "community": 0,
+      "norm_label": "sds_realloc()"
+    },
+    {
+      "label": "sds_free()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1138",
+      "id": "sds_sds_sds_free",
+      "community": 0,
+      "norm_label": "sds_free()"
+    },
+    {
+      "label": "sdsTest()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1146",
+      "id": "sds_sds_sdstest",
+      "community": 0,
+      "norm_label": "sdstest()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1325",
+      "id": "sds_sds_main",
+      "community": 0,
+      "norm_label": "main()"
+    },
+    {
+      "label": "testhelp.h",
+      "file_type": "code",
+      "source_file": "opensource/sds/testhelp.h",
+      "source_location": "L1",
+      "id": "opensource_sds_testhelp_h",
+      "community": 0,
+      "norm_label": "testhelp.h"
+    },
+    {
+      "label": "sds.h",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": "L1",
+      "id": "opensource_sds_sds_h",
+      "community": 1,
+      "norm_label": "sds.h"
+    },
+    {
+      "label": "sdslen()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": "L87",
+      "id": "sds_sds_sdslen",
+      "community": 0,
+      "norm_label": "sdslen()"
+    },
+    {
+      "label": "sdsavail()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": "L104",
+      "id": "sds_sds_sdsavail",
+      "community": 1,
+      "norm_label": "sdsavail()"
+    },
+    {
+      "label": "sdssetlen()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": "L130",
+      "id": "sds_sds_sdssetlen",
+      "community": 1,
+      "norm_label": "sdssetlen()"
+    },
+    {
+      "label": "sdsinclen()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": "L154",
+      "id": "sds_sds_sdsinclen",
+      "community": 1,
+      "norm_label": "sdsinclen()"
+    },
+    {
+      "label": "sdsalloc()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": "L180",
+      "id": "sds_sds_sdsalloc",
+      "community": 1,
+      "norm_label": "sdsalloc()"
+    },
+    {
+      "label": "sdssetalloc()",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": "L197",
+      "id": "sds_sds_sdssetalloc",
+      "community": 1,
+      "norm_label": "sdssetalloc()"
+    },
+    {
+      "label": "sdsalloc.h",
+      "file_type": "code",
+      "source_file": "opensource/sds/sdsalloc.h",
+      "source_location": "L1",
+      "id": "opensource_sds_sdsalloc_h",
+      "community": 0,
+      "norm_label": "sdsalloc.h"
+    },
+    {
+      "label": "chapter-4.c",
+      "file_type": "code",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L1",
+      "id": "chapter_4_chapter_4_c",
+      "community": 2,
+      "norm_label": "chapter-4.c"
+    },
+    {
+      "label": "atof()",
+      "file_type": "code",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L6",
+      "id": "chapter_4_chapter_4_atof",
+      "community": 2,
+      "norm_label": "atof()"
+    },
+    {
+      "label": "get_line()",
+      "file_type": "code",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L25",
+      "id": "chapter_4_chapter_4_get_line",
+      "community": 2,
+      "norm_label": "get_line()"
+    },
+    {
+      "label": "push()",
+      "file_type": "code",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L46",
+      "id": "chapter_4_chapter_4_push",
+      "community": 2,
+      "norm_label": "push()"
+    },
+    {
+      "label": "pop()",
+      "file_type": "code",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L57",
+      "id": "chapter_4_chapter_4_pop",
+      "community": 2,
+      "norm_label": "pop()"
+    },
+    {
+      "label": "clear_()",
+      "file_type": "code",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L68",
+      "id": "chapter_4_chapter_4_clear",
+      "community": 2,
+      "norm_label": "clear_()"
+    },
+    {
+      "label": "getch()",
+      "file_type": "code",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L86",
+      "id": "chapter_4_chapter_4_getch",
+      "community": 2,
+      "norm_label": "getch()"
+    },
+    {
+      "label": "getch_single()",
+      "file_type": "code",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L92",
+      "id": "chapter_4_chapter_4_getch_single",
+      "community": 2,
+      "norm_label": "getch_single()"
+    },
+    {
+      "label": "ungetch_single()",
+      "file_type": "code",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L105",
+      "id": "chapter_4_chapter_4_ungetch_single",
+      "community": 2,
+      "norm_label": "ungetch_single()"
+    },
+    {
+      "label": "ungetch()",
+      "file_type": "code",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L115",
+      "id": "chapter_4_chapter_4_ungetch",
+      "community": 2,
+      "norm_label": "ungetch()"
+    },
+    {
+      "label": "ungets()",
+      "file_type": "code",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L123",
+      "id": "chapter_4_chapter_4_ungets",
+      "community": 2,
+      "norm_label": "ungets()"
+    },
+    {
+      "label": "getop()",
+      "file_type": "code",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L130",
+      "id": "chapter_4_chapter_4_getop",
+      "community": 2,
+      "norm_label": "getop()"
+    },
+    {
+      "label": "reversePolish()",
+      "file_type": "code",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L162",
+      "id": "chapter_4_chapter_4_reversepolish",
+      "community": 2,
+      "norm_label": "reversepolish()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L206",
+      "id": "chapter_4_chapter_4_main",
+      "community": 2,
+      "norm_label": "main()"
+    },
+    {
+      "label": "excercise 3.1.c",
+      "file_type": "code",
+      "source_file": "chapter-3/excercise 3.1.c",
+      "source_location": "L1",
+      "id": "chapter_3_excercise_3_1_c",
+      "community": 6,
+      "norm_label": "excercise 3.1.c"
+    },
+    {
+      "label": "expand()",
+      "file_type": "code",
+      "source_file": "chapter-3/excercise 3.1.c",
+      "source_location": "L3",
+      "id": "chapter_3_excercise_3_1_expand",
+      "community": 6,
+      "norm_label": "expand()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "chapter-3/excercise 3.1.c",
+      "source_location": "L25",
+      "id": "chapter_3_excercise_3_1_main",
+      "community": 6,
+      "norm_label": "main()"
+    },
+    {
+      "label": "chapter-3.c",
+      "file_type": "code",
+      "source_file": "chapter-3/chapter-3.c",
+      "source_location": "L1",
+      "id": "chapter_3_chapter_3_c",
+      "community": 9,
+      "norm_label": "chapter-3.c"
+    },
+    {
+      "label": "print_binary()",
+      "file_type": "code",
+      "source_file": "chapter-3/chapter-3.c",
+      "source_location": "L4",
+      "id": "chapter_3_chapter_3_print_binary",
+      "community": 9,
+      "norm_label": "print_binary()"
+    },
+    {
+      "label": "reverse()",
+      "file_type": "code",
+      "source_file": "chapter-3/chapter-3.c",
+      "source_location": "L20",
+      "id": "chapter_3_chapter_3_reverse",
+      "community": 9,
+      "norm_label": "reverse()"
+    },
+    {
+      "label": "itoa()",
+      "file_type": "code",
+      "source_file": "chapter-3/chapter-3.c",
+      "source_location": "L31",
+      "id": "chapter_3_chapter_3_itoa",
+      "community": 9,
+      "norm_label": "itoa()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "chapter-3/chapter-3.c",
+      "source_location": "L47",
+      "id": "chapter_3_chapter_3_main",
+      "community": 9,
+      "norm_label": "main()"
+    },
+    {
+      "label": "excercise 2.4.c",
+      "file_type": "code",
+      "source_file": "chapter-2/excercise 2.4.c",
+      "source_location": "L1",
+      "id": "chapter_2_excercise_2_4_c",
+      "community": 6,
+      "norm_label": "excercise 2.4.c"
+    },
+    {
+      "label": "any()",
+      "file_type": "code",
+      "source_file": "chapter-2/excercise 2.4.c",
+      "source_location": "L3",
+      "id": "chapter_2_excercise_2_4_any",
+      "community": 6,
+      "norm_label": "any()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "chapter-2/excercise 2.4.c",
+      "source_location": "L15",
+      "id": "chapter_2_excercise_2_4_main",
+      "community": 6,
+      "norm_label": "main()"
+    },
+    {
+      "label": "chapter-2.c",
+      "file_type": "code",
+      "source_file": "chapter-2/chapter-2.c",
+      "source_location": "L1",
+      "id": "chapter_2_chapter_2_c",
+      "community": 12,
+      "norm_label": "chapter-2.c"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "chapter-2/chapter-2.c",
+      "source_location": "L3",
+      "id": "chapter_2_chapter_2_main",
+      "community": 12,
+      "norm_label": "main()"
+    },
+    {
+      "label": "excercise 2.3.c",
+      "file_type": "code",
+      "source_file": "chapter-2/excercise 2.3.c",
+      "source_location": "L1",
+      "id": "chapter_2_excercise_2_3_c",
+      "community": 5,
+      "norm_label": "excercise 2.3.c"
+    },
+    {
+      "label": "squeeze()",
+      "file_type": "code",
+      "source_file": "chapter-2/excercise 2.3.c",
+      "source_location": "L3",
+      "id": "chapter_2_excercise_2_3_squeeze",
+      "community": 5,
+      "norm_label": "squeeze()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "chapter-2/excercise 2.3.c",
+      "source_location": "L16",
+      "id": "chapter_2_excercise_2_3_main",
+      "community": 5,
+      "norm_label": "main()"
+    },
+    {
+      "label": "excercise 2.9.c",
+      "file_type": "code",
+      "source_file": "chapter-2/excercise 2.9.c",
+      "source_location": "L1",
+      "id": "chapter_2_excercise_2_9_c",
+      "community": 5,
+      "norm_label": "excercise 2.9.c"
+    },
+    {
+      "label": "bitcount()",
+      "file_type": "code",
+      "source_file": "chapter-2/excercise 2.9.c",
+      "source_location": "L3",
+      "id": "chapter_2_excercise_2_9_bitcount",
+      "community": 5,
+      "norm_label": "bitcount()"
+    },
+    {
+      "label": "print_binary()",
+      "file_type": "code",
+      "source_file": "chapter-2/excercise 2.9.c",
+      "source_location": "L13",
+      "id": "chapter_2_excercise_2_9_print_binary",
+      "community": 5,
+      "norm_label": "print_binary()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "chapter-2/excercise 2.9.c",
+      "source_location": "L22",
+      "id": "chapter_2_excercise_2_9_main",
+      "community": 5,
+      "norm_label": "main()"
+    },
+    {
+      "label": "excercise 2.8.c",
+      "file_type": "code",
+      "source_file": "chapter-2/excercise 2.8.c",
+      "source_location": "L1",
+      "id": "chapter_2_excercise_2_8_c",
+      "community": 5,
+      "norm_label": "excercise 2.8.c"
+    },
+    {
+      "label": "print_binary()",
+      "file_type": "code",
+      "source_file": "chapter-2/excercise 2.8.c",
+      "source_location": "L3",
+      "id": "chapter_2_excercise_2_8_print_binary",
+      "community": 5,
+      "norm_label": "print_binary()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "chapter-2/excercise 2.8.c",
+      "source_location": "L12",
+      "id": "chapter_2_excercise_2_8_main",
+      "community": 5,
+      "norm_label": "main()"
+    },
+    {
+      "label": "excercise 2.6.c",
+      "file_type": "code",
+      "source_file": "chapter-2/excercise 2.6.c",
+      "source_location": "L1",
+      "id": "chapter_2_excercise_2_6_c",
+      "community": 6,
+      "norm_label": "excercise 2.6.c"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "chapter-2/excercise 2.6.c",
+      "source_location": "L3",
+      "id": "chapter_2_excercise_2_6_main",
+      "community": 6,
+      "norm_label": "main()"
+    },
+    {
+      "label": "chapter 5.c",
+      "file_type": "code",
+      "source_file": "chapter-5/chapter 5.c",
+      "source_location": "L1",
+      "id": "chapter_5_chapter_5_c",
+      "community": 9,
+      "norm_label": "chapter 5.c"
+    },
+    {
+      "label": "strlen()",
+      "file_type": "code",
+      "source_file": "chapter-5/chapter 5.c",
+      "source_location": "L3",
+      "id": "chapter_5_chapter_5_strlen",
+      "community": 9,
+      "norm_label": "strlen()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "chapter-5/chapter 5.c",
+      "source_location": "L11",
+      "id": "chapter_5_chapter_5_main",
+      "community": 9,
+      "norm_label": "main()"
+    },
+    {
+      "label": "chapter 5.1.c",
+      "file_type": "code",
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": "L1",
+      "id": "chapter_5_chapter_5_1_c",
+      "community": 10,
+      "norm_label": "chapter 5.1.c"
+    },
+    {
+      "label": "getch()",
+      "file_type": "code",
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": "L10",
+      "id": "chapter_5_chapter_5_1_getch",
+      "community": 10,
+      "norm_label": "getch()"
+    },
+    {
+      "label": "ungetch()",
+      "file_type": "code",
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": "L15",
+      "id": "chapter_5_chapter_5_1_ungetch",
+      "community": 10,
+      "norm_label": "ungetch()"
+    },
+    {
+      "label": "get_int()",
+      "file_type": "code",
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": "L23",
+      "id": "chapter_5_chapter_5_1_get_int",
+      "community": 10,
+      "norm_label": "get_int()"
+    },
+    {
+      "label": "getfloat()",
+      "file_type": "code",
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": "L44",
+      "id": "chapter_5_chapter_5_1_getfloat",
+      "community": 10,
+      "norm_label": "getfloat()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": "L70",
+      "id": "chapter_5_chapter_5_1_main",
+      "community": 10,
+      "norm_label": "main()"
+    },
+    {
+      "label": "pointer.c",
+      "file_type": "code",
+      "source_file": "pointer/pointer.c",
+      "source_location": "L1",
+      "id": "pointer_pointer_c",
+      "community": 7,
+      "norm_label": "pointer.c"
+    },
+    {
+      "label": "increment()",
+      "file_type": "code",
+      "source_file": "pointer/pointer.c",
+      "source_location": "L10",
+      "id": "pointer_pointer_increment",
+      "community": 7,
+      "norm_label": "increment()"
+    },
+    {
+      "label": "sumOfElements()",
+      "file_type": "code",
+      "source_file": "pointer/pointer.c",
+      "source_location": "L15",
+      "id": "pointer_pointer_sumofelements",
+      "community": 7,
+      "norm_label": "sumofelements()"
+    },
+    {
+      "label": "print()",
+      "file_type": "code",
+      "source_file": "pointer/pointer.c",
+      "source_location": "L24",
+      "id": "pointer_pointer_print",
+      "community": 7,
+      "norm_label": "print()"
+    },
+    {
+      "label": "Func1D()",
+      "file_type": "code",
+      "source_file": "pointer/pointer.c",
+      "source_location": "L32",
+      "id": "pointer_pointer_func1d",
+      "community": 7,
+      "norm_label": "func1d()"
+    },
+    {
+      "label": "Func2D()",
+      "file_type": "code",
+      "source_file": "pointer/pointer.c",
+      "source_location": "L38",
+      "id": "pointer_pointer_func2d",
+      "community": 7,
+      "norm_label": "func2d()"
+    },
+    {
+      "label": "Func3D()",
+      "file_type": "code",
+      "source_file": "pointer/pointer.c",
+      "source_location": "L44",
+      "id": "pointer_pointer_func3d",
+      "community": 7,
+      "norm_label": "func3d()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "pointer/pointer.c",
+      "source_location": "L49",
+      "id": "pointer_pointer_main",
+      "community": 7,
+      "norm_label": "main()"
+    },
+    {
+      "label": "pointer and dynamic memory.c",
+      "file_type": "code",
+      "source_file": "pointer/pointer and dynamic memory.c",
+      "source_location": "L1",
+      "id": "pointer_pointer_and_dynamic_memory_c",
+      "community": 8,
+      "norm_label": "pointer and dynamic memory.c"
+    },
+    {
+      "label": "Square()",
+      "file_type": "code",
+      "source_file": "pointer/pointer and dynamic memory.c",
+      "source_location": "L9",
+      "id": "pointer_pointer_and_dynamic_memory_square",
+      "community": 8,
+      "norm_label": "square()"
+    },
+    {
+      "label": "SquareOfSum()",
+      "file_type": "code",
+      "source_file": "pointer/pointer and dynamic memory.c",
+      "source_location": "L14",
+      "id": "pointer_pointer_and_dynamic_memory_squareofsum",
+      "community": 8,
+      "norm_label": "squareofsum()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "pointer/pointer and dynamic memory.c",
+      "source_location": "L20",
+      "id": "pointer_pointer_and_dynamic_memory_main",
+      "community": 8,
+      "norm_label": "main()"
+    },
+    {
+      "label": "pointer as function returns.c",
+      "file_type": "code",
+      "source_file": "pointer/pointer as function returns.c",
+      "source_location": "L1",
+      "id": "pointer_pointer_as_function_returns_c",
+      "community": 8,
+      "norm_label": "pointer as function returns.c"
+    },
+    {
+      "label": "printHelloWorld()",
+      "file_type": "code",
+      "source_file": "pointer/pointer as function returns.c",
+      "source_location": "L7",
+      "id": "pointer_pointer_as_function_returns_printhelloworld",
+      "community": 8,
+      "norm_label": "printhelloworld()"
+    },
+    {
+      "label": "add()",
+      "file_type": "code",
+      "source_file": "pointer/pointer as function returns.c",
+      "source_location": "L12",
+      "id": "pointer_pointer_as_function_returns_add",
+      "community": 8,
+      "norm_label": "add()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "pointer/pointer as function returns.c",
+      "source_location": "L19",
+      "id": "pointer_pointer_as_function_returns_main",
+      "community": 8,
+      "norm_label": "main()"
+    },
+    {
+      "label": "function pointer.c",
+      "file_type": "code",
+      "source_file": "pointer/function pointer.c",
+      "source_location": "L1",
+      "id": "pointer_function_pointer_c",
+      "community": 13,
+      "norm_label": "function pointer.c"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "pointer/function pointer.c",
+      "source_location": "L7",
+      "id": "pointer_function_pointer_main",
+      "community": 13,
+      "norm_label": "main()"
+    },
+    {
+      "label": "1.c",
+      "file_type": "code",
+      "source_file": "pointer/practice problem/1.c",
+      "source_location": "L1",
+      "id": "pointer_practice_problem_1_c",
+      "community": 7,
+      "norm_label": "1.c"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "pointer/practice problem/1.c",
+      "source_location": "L7",
+      "id": "practice_problem_1_main",
+      "community": 7,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Word Length Histogram",
+      "file_type": "concept",
+      "source_file": "chapter-1/excercise 1.13.c",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "chapter_1_excercise_1_13_word_length_histogram",
+      "community": 4,
+      "norm_label": "word length histogram"
+    },
+    {
+      "label": "Word Counting State Machine",
+      "file_type": "concept",
+      "source_file": "chapter-1/excercise 1.11.c",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "chapter_1_excercise_1_11_word_count",
+      "community": 4,
+      "norm_label": "word counting state machine"
+    },
+    {
+      "label": "squeeze (remove chars from s1 found in s2)",
+      "file_type": "code",
+      "source_file": "chapter-2/excercise 2.4.c",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "chapter_2_excercise_2_4_squeeze",
+      "community": 6,
+      "norm_label": "squeeze (remove chars from s1 found in s2)"
+    },
+    {
+      "label": "Brian Kernighan Bitcount Trick",
+      "file_type": "rationale",
+      "source_file": "chapter-2/excercise 2.9.c",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "chapter_2_excercise_2_9_brian_kernighan_bitcount",
+      "community": 5,
+      "norm_label": "brian kernighan bitcount trick"
+    },
+    {
+      "label": "any (first occurrence of any s2 char in s1)",
+      "file_type": "code",
+      "source_file": "chapter-2/excercise 2.6.c",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "chapter_2_excercise_2_6_any",
+      "community": 6,
+      "norm_label": "any (first occurrence of any s2 char in s1)"
+    },
+    {
+      "label": "C Programming for Everybody Video Lecture",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": "https://www.youtube.com/watch?v=PaPN51Mm5qQ",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_video_lecture",
+      "community": 14,
+      "norm_label": "c programming for everybody video lecture"
+    },
+    {
+      "label": "CC4E Chapter 1 Reading",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": "https://www.cc4e.com/book/chap01.md",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_cc4e_chapter_1",
+      "community": 14,
+      "norm_label": "cc4e chapter 1 reading"
+    },
+    {
+      "label": "getchar EOF Loop Pattern",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_getchar_loop",
+      "community": 4,
+      "norm_label": "getchar eof loop pattern"
+    },
+    {
+      "label": "Charset Lookup Table String Filter",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_string_charset_filter",
+      "community": 6,
+      "norm_label": "charset lookup table string filter"
+    },
+    {
+      "label": "Bit Manipulation Exercises",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_bit_manipulation",
+      "community": 5,
+      "norm_label": "bit manipulation exercises"
+    },
+    {
+      "label": "clear_ (stack clear)",
+      "file_type": "code",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "chapter_4_chapter_4_clear_",
+      "community": 2,
+      "norm_label": "clear_ (stack clear)"
+    },
+    {
+      "label": "Reverse Polish Notation calculator",
+      "file_type": "rationale",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "rationale_rpn_calculator",
+      "community": 2,
+      "norm_label": "reverse polish notation calculator"
+    },
+    {
+      "label": "Pushback buffer pattern (getch/ungetch)",
+      "file_type": "rationale",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "rationale_pushback_buffer",
+      "community": 2,
+      "norm_label": "pushback buffer pattern (getch/ungetch)"
+    },
+    {
+      "label": "Pointer as output parameter pattern",
+      "file_type": "rationale",
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "rationale_pointer_out_param",
+      "community": 10,
+      "norm_label": "pointer as output parameter pattern"
+    },
+    {
+      "label": "Call by reference via pointers",
+      "file_type": "rationale",
+      "source_file": "pointer/pointer.c",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "rationale_call_by_reference",
+      "community": 3,
+      "norm_label": "call by reference via pointers"
+    },
+    {
+      "label": "Multi-dimensional array decay to pointer",
+      "file_type": "rationale",
+      "source_file": "pointer/pointer.c",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "rationale_multidim_array_pointer",
+      "community": 7,
+      "norm_label": "multi-dimensional array decay to pointer"
+    },
+    {
+      "label": "Dynamic memory (malloc/calloc/realloc/free)",
+      "file_type": "rationale",
+      "source_file": "pointer/pointer and dynamic memory.c",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "rationale_dynamic_memory",
+      "community": 8,
+      "norm_label": "dynamic memory (malloc/calloc/realloc/free)"
+    },
+    {
+      "label": "Returning pointer to heap-allocated memory",
+      "file_type": "rationale",
+      "source_file": "pointer/pointer as function returns.c",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "rationale_pointer_as_return",
+      "community": 8,
+      "norm_label": "returning pointer to heap-allocated memory"
+    },
+    {
+      "label": "newlen (learner's sds clone stub)",
+      "file_type": "code",
+      "source_file": "opensource/opensource_test.c",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "opensource_opensource_test_newlen",
+      "community": 3,
+      "norm_label": "newlen (learner's sds clone stub)"
+    },
+    {
+      "label": "struct sdshdr5",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Salvatore Sanfilippo",
+      "contributor": null,
+      "id": "sds_sds_sdshdr5",
+      "community": 3,
+      "norm_label": "struct sdshdr5"
+    },
+    {
+      "label": "struct sdshdr8",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Salvatore Sanfilippo",
+      "contributor": null,
+      "id": "sds_sds_sdshdr8",
+      "community": 3,
+      "norm_label": "struct sdshdr8"
+    },
+    {
+      "label": "struct sdshdr16",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Salvatore Sanfilippo",
+      "contributor": null,
+      "id": "sds_sds_sdshdr16",
+      "community": 3,
+      "norm_label": "struct sdshdr16"
+    },
+    {
+      "label": "struct sdshdr32",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Salvatore Sanfilippo",
+      "contributor": null,
+      "id": "sds_sds_sdshdr32",
+      "community": 3,
+      "norm_label": "struct sdshdr32"
+    },
+    {
+      "label": "struct sdshdr64",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Salvatore Sanfilippo",
+      "contributor": null,
+      "id": "sds_sds_sdshdr64",
+      "community": 3,
+      "norm_label": "struct sdshdr64"
+    },
+    {
+      "label": "typedef sds (alias of char*)",
+      "file_type": "code",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Salvatore Sanfilippo",
+      "contributor": null,
+      "id": "sds_sds_sds_type",
+      "community": 3,
+      "norm_label": "typedef sds (alias of char*)"
+    },
+    {
+      "label": "s_malloc macro",
+      "file_type": "code",
+      "source_file": "opensource/sds/sdsalloc.h",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Salvatore Sanfilippo",
+      "contributor": null,
+      "id": "sds_sdsalloc_s_malloc",
+      "community": 1,
+      "norm_label": "s_malloc macro"
+    },
+    {
+      "label": "s_realloc macro",
+      "file_type": "code",
+      "source_file": "opensource/sds/sdsalloc.h",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Salvatore Sanfilippo",
+      "contributor": null,
+      "id": "sds_sdsalloc_s_realloc",
+      "community": 1,
+      "norm_label": "s_realloc macro"
+    },
+    {
+      "label": "s_free macro",
+      "file_type": "code",
+      "source_file": "opensource/sds/sdsalloc.h",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Salvatore Sanfilippo",
+      "contributor": null,
+      "id": "sds_sdsalloc_s_free",
+      "community": 0,
+      "norm_label": "s_free macro"
+    },
+    {
+      "label": "test_cond macro",
+      "file_type": "code",
+      "source_file": "opensource/sds/testhelp.h",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Salvatore Sanfilippo",
+      "contributor": null,
+      "id": "sds_testhelp_test_cond",
+      "community": 15,
+      "norm_label": "test_cond macro"
+    },
+    {
+      "label": "test_report macro",
+      "file_type": "code",
+      "source_file": "opensource/sds/testhelp.h",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Salvatore Sanfilippo",
+      "contributor": null,
+      "id": "sds_testhelp_test_report",
+      "community": 15,
+      "norm_label": "test_report macro"
+    },
+    {
+      "label": "SDS - Simple Dynamic Strings",
+      "file_type": "concept",
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Salvatore Sanfilippo",
+      "contributor": "Oran Agra",
+      "id": "sds_readme_sds_library",
+      "community": 0,
+      "norm_label": "sds - simple dynamic strings"
+    },
+    {
+      "label": "Hidden header before pointer pattern",
+      "file_type": "rationale",
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "sds_readme_hidden_header_pattern",
+      "community": 3,
+      "norm_label": "hidden header before pointer pattern"
+    },
+    {
+      "label": "Binary-safe strings (length-prefixed)",
+      "file_type": "rationale",
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "sds_readme_binary_safe_strings",
+      "community": 0,
+      "norm_label": "binary-safe strings (length-prefixed)"
+    },
+    {
+      "label": "Backward compatibility with C string functions",
+      "file_type": "rationale",
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "sds_readme_libc_compat",
+      "community": 3,
+      "norm_label": "backward compatibility with c string functions"
+    },
+    {
+      "label": "Dynamic header sizes (sdshdr5/8/16/32/64) for memory efficiency",
+      "file_type": "rationale",
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Oran Agra",
+      "contributor": null,
+      "id": "sds_readme_dynamic_header_sizes",
+      "community": 3,
+      "norm_label": "dynamic header sizes (sdshdr5/8/16/32/64) for memory efficiency"
+    },
+    {
+      "label": "Preallocation: double-on-grow up to SDS_MAX_PREALLOC",
+      "file_type": "rationale",
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "sds_readme_preallocation",
+      "community": 1,
+      "norm_label": "preallocation: double-on-grow up to sds_max_prealloc"
+    },
+    {
+      "label": "Zero-copy append from syscalls (sdsMakeRoomFor + sdsIncrLen)",
+      "file_type": "rationale",
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "sds_readme_zero_copy_syscall_append",
+      "community": 1,
+      "norm_label": "zero-copy append from syscalls (sdsmakeroomfor + sdsincrlen)"
+    },
+    {
+      "label": "Reference counting for sharing SDS strings",
+      "file_type": "rationale",
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "sds_readme_reference_counting",
+      "community": 16,
+      "norm_label": "reference counting for sharing sds strings"
+    },
+    {
+      "label": "Redis origin / extraction history",
+      "file_type": "rationale",
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "sds_readme_redis_origin",
+      "community": 0,
+      "norm_label": "redis origin / extraction history"
+    },
+    {
+      "label": "Pluggable allocator via sdsalloc.h",
+      "file_type": "rationale",
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "sds_readme_pluggable_allocator",
+      "community": 1,
+      "norm_label": "pluggable allocator via sdsalloc.h"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-1/excercise 1.13.c",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "chapter_1_excercise_1_13_c",
+      "target": "chapter_1_excercise_1_13_lower",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-1/excercise 1.13.c",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "chapter_1_excercise_1_13_c",
+      "target": "chapter_1_excercise_1_13_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-1/excercise 1.13.c",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "chapter_1_excercise_1_13_main",
+      "target": "chapter_1_excercise_1_13_lower",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "chapter-1/excercise 1.13.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_1_excercise_1_13_main",
+      "target": "chapter_1_excercise_1_13_word_length_histogram"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chapter-1/excercise 1.13.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_1_excercise_1_13_main",
+      "target": "chapter_1_excercise_1_11_main"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "chapter-1/excercise 1.13.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_1_excercise_1_13_main",
+      "target": "chapter_1_excercise_1_12_main"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chapter-1/excercise 1.13.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_1_excercise_1_13_main",
+      "target": "readme_getchar_loop"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-1/excercise 1.17.c",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "chapter_1_excercise_1_17_c",
+      "target": "chapter_1_excercise_1_17_get_line",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-1/excercise 1.17.c",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "chapter_1_excercise_1_17_c",
+      "target": "chapter_1_excercise_1_17_reverse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-1/excercise 1.17.c",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "chapter_1_excercise_1_17_c",
+      "target": "chapter_1_excercise_1_17_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-1/excercise 1.17.c",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "chapter_1_excercise_1_17_main",
+      "target": "chapter_1_excercise_1_17_get_line",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-1/excercise 1.17.c",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "chapter_1_excercise_1_17_main",
+      "target": "chapter_1_excercise_1_17_reverse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-1/chapter-1.c",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "chapter_1_chapter_1_c",
+      "target": "chapter_1_chapter_1_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chapter-1/chapter-1.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_1_chapter_1_main",
+      "target": "readme_getchar_loop"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-1/excercise 1.11.c",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "chapter_1_excercise_1_11_c",
+      "target": "chapter_1_excercise_1_11_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "chapter-1/excercise 1.11.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_1_excercise_1_11_main",
+      "target": "chapter_1_excercise_1_11_word_count"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chapter-1/excercise 1.12.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_1_excercise_1_12_main",
+      "target": "chapter_1_excercise_1_11_main"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chapter-1/excercise 1.11.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_1_excercise_1_11_main",
+      "target": "readme_getchar_loop"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-1/excercise 1.12.c",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "chapter_1_excercise_1_12_c",
+      "target": "chapter_1_excercise_1_12_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/opensource_test.c",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "opensource_opensource_test_c",
+      "target": "opensource_sds_sds_h",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/opensource_test.c",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "opensource_opensource_test_c",
+      "target": "opensource_opensource_test_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/opensource_test.c",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "opensource_opensource_test_main",
+      "target": "sds_sds_sdsnew"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/opensource_test.c",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "opensource_opensource_test_main",
+      "target": "sds_sds_sdstrim"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "opensource/opensource_test.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "opensource_opensource_test_main",
+      "target": "sds_readme_sds_library"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "opensource_sds_sds_h",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "opensource_sds_sdsalloc_h",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdshdrsize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsreqtype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsnewlen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L149",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsempty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L154",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsnew",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsdup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L165",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsfree",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L184",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsupdatelen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L193",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsclear",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L204",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsmakeroomfor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L256",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsremovefreespace",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L300",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsallocsize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L307",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsallocptr",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L334",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsincrlen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L380",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsgrowzero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L398",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdscatlen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L413",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdscat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L421",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdscatsds",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L427",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdscpylen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L440",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdscpy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L451",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsll2str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L494",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsull2str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L526",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsfromlonglong",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L534",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdscatvprintf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L591",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdscatprintf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L616",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdscatfmt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L725",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdstrim",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L756",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsrange",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L783",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdstolower",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L790",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdstoupper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L807",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdscmp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L835",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdssplitlen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L885",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsfreesplitres",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L898",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdscatrepr",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L925",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_is_hex_digit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L932",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_hex_digit_to_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L973",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdssplitargs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1092",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsmapchars",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1108",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsjoin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1120",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdsjoinsds",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1136",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sds_malloc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1137",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sds_realloc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1138",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sds_free",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1142",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "opensource_sds_testhelp_h",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1146",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_sdstest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1325",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_c",
+      "target": "sds_sds_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdsnewlen",
+      "target": "sds_sds_sdshdrsize"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdsfree",
+      "target": "sds_sds_sdshdrsize"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdsmakeroomfor",
+      "target": "sds_sds_sdshdrsize"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdsremovefreespace",
+      "target": "sds_sds_sdshdrsize"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdsallocsize",
+      "target": "sds_sds_sdshdrsize"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdsallocptr",
+      "target": "sds_sds_sdshdrsize"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdshdrsize",
+      "target": "sds_sds_sdshdr5"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdshdrsize",
+      "target": "sds_sds_sdshdr8"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdshdrsize",
+      "target": "sds_sds_sdshdr16"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdshdrsize",
+      "target": "sds_sds_sdshdr32"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdshdrsize",
+      "target": "sds_sds_sdshdr64"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdsnewlen",
+      "target": "sds_sds_sdsreqtype"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdsmakeroomfor",
+      "target": "sds_sds_sdsreqtype"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdsremovefreespace",
+      "target": "sds_sds_sdsreqtype"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdsempty",
+      "target": "sds_sds_sdsnewlen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdsnew",
+      "target": "sds_sds_sdsnewlen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdsdup",
+      "target": "sds_sds_sdsnewlen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdsfromlonglong",
+      "target": "sds_sds_sdsnewlen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L860",
+      "weight": 1.0,
+      "source": "sds_sds_sdssplitlen",
+      "target": "sds_sds_sdsnewlen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1154",
+      "weight": 1.0,
+      "source": "sds_sds_sdstest",
+      "target": "sds_sds_sdsnewlen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "opensource/opensource_test.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "opensource_opensource_test_newlen",
+      "target": "sds_sds_sdsnewlen"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsnewlen",
+      "target": "sds_sdsalloc_s_malloc"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsnewlen",
+      "target": "sds_sds_sds_type"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsnewlen",
+      "target": "sds_sds_sdshdr8"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdsnewlen"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_hidden_header_pattern",
+      "target": "sds_sds_sdsnewlen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L988",
+      "weight": 1.0,
+      "source": "sds_sds_sdssplitargs",
+      "target": "sds_sds_sdsempty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1109",
+      "weight": 1.0,
+      "source": "sds_sds_sdsjoin",
+      "target": "sds_sds_sdsempty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1121",
+      "weight": 1.0,
+      "source": "sds_sds_sdsjoinsds",
+      "target": "sds_sds_sdsempty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1172",
+      "weight": 1.0,
+      "source": "sds_sds_sdstest",
+      "target": "sds_sds_sdsempty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdsempty"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1148",
+      "weight": 1.0,
+      "source": "sds_sds_sdstest",
+      "target": "sds_sds_sdsnew",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "sds_sds_sdsnew",
+      "target": "chapter_5_chapter_5_strlen"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdsnew"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsnew",
+      "target": "pointer_pointer_and_dynamic_memory_main"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1226",
+      "weight": 1.0,
+      "source": "sds_sds_sdstest",
+      "target": "sds_sds_sdsdup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsdup",
+      "target": "sds_sds_sdslen"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdsdup"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L877",
+      "weight": 1.0,
+      "source": "sds_sds_sdssplitlen",
+      "target": "sds_sds_sdsfree",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L888",
+      "weight": 1.0,
+      "source": "sds_sds_sdsfreesplitres",
+      "target": "sds_sds_sdsfree",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1076",
+      "weight": 1.0,
+      "source": "sds_sds_sdssplitargs",
+      "target": "sds_sds_sdsfree",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1153",
+      "weight": 1.0,
+      "source": "sds_sds_sdstest",
+      "target": "sds_sds_sdsfree",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsfree",
+      "target": "sds_sdsalloc_s_free"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdsfree"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsfree",
+      "target": "pointer_pointer_and_dynamic_memory_main"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L185",
+      "weight": 1.0,
+      "source": "sds_sds_sdsupdatelen",
+      "target": "chapter_5_chapter_5_strlen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsupdatelen",
+      "target": "sds_sds_sdssetlen"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdsupdatelen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsclear",
+      "target": "sds_sds_sdssetlen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdsgrowzero",
+      "target": "sds_sds_sdsmakeroomfor"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdscatlen",
+      "target": "sds_sds_sdsmakeroomfor"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdscpylen",
+      "target": "sds_sds_sdsmakeroomfor"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L625",
+      "weight": 1.0,
+      "source": "sds_sds_sdscatfmt",
+      "target": "sds_sds_sdsmakeroomfor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1299",
+      "weight": 1.0,
+      "source": "sds_sds_sdstest",
+      "target": "sds_sds_sdsmakeroomfor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsmakeroomfor",
+      "target": "sds_sds_sdsavail"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsmakeroomfor",
+      "target": "sds_sds_sdslen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsmakeroomfor",
+      "target": "sds_sds_sdssetlen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsmakeroomfor",
+      "target": "sds_sds_sdssetalloc"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsmakeroomfor",
+      "target": "sds_sdsalloc_s_realloc"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsmakeroomfor",
+      "target": "sds_sdsalloc_s_malloc"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsmakeroomfor",
+      "target": "sds_sdsalloc_s_free"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsmakeroomfor",
+      "target": "sds_sds_sdshdr8"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdsmakeroomfor"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_preallocation",
+      "target": "sds_sds_sdsmakeroomfor"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_zero_copy_syscall_append",
+      "target": "sds_sds_sdsmakeroomfor"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsremovefreespace",
+      "target": "sds_sds_sdslen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsremovefreespace",
+      "target": "sds_sds_sdsavail"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L287",
+      "weight": 1.0,
+      "source": "sds_sds_sdsremovefreespace",
+      "target": "sds_sds_sdssetlen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L289",
+      "weight": 1.0,
+      "source": "sds_sds_sdsremovefreespace",
+      "target": "sds_sds_sdssetalloc"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsremovefreespace",
+      "target": "sds_sdsalloc_s_realloc"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsremovefreespace",
+      "target": "sds_sdsalloc_s_malloc"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsremovefreespace",
+      "target": "sds_sdsalloc_s_free"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdsremovefreespace"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsallocsize",
+      "target": "sds_sds_sdsalloc"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdsallocsize"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1310",
+      "weight": 1.0,
+      "source": "sds_sds_sdstest",
+      "target": "sds_sds_sdsincrlen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdsincrlen"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_zero_copy_syscall_append",
+      "target": "sds_sds_sdsincrlen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsgrowzero",
+      "target": "sds_sds_sdslen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdsgrowzero",
+      "target": "sds_sds_sdssetlen"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdsgrowzero"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdscat",
+      "target": "sds_sds_sdscatlen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdscatsds",
+      "target": "sds_sds_sdscatlen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdscatvprintf",
+      "target": "sds_sds_sdscatlen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L899",
+      "weight": 1.0,
+      "source": "sds_sds_sdscatrepr",
+      "target": "sds_sds_sdscatlen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L999",
+      "weight": 1.0,
+      "source": "sds_sds_sdssplitargs",
+      "target": "sds_sds_sdscatlen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1126",
+      "weight": 1.0,
+      "source": "sds_sds_sdsjoinsds",
+      "target": "sds_sds_sdscatlen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdscatlen",
+      "target": "sds_sds_sdslen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdscatlen",
+      "target": "sds_sds_sdssetlen"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdscatlen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1113",
+      "weight": 1.0,
+      "source": "sds_sds_sdsjoin",
+      "target": "sds_sds_sdscat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1158",
+      "weight": 1.0,
+      "source": "sds_sds_sdstest",
+      "target": "sds_sds_sdscat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "semantically_similar_to",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.55,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdscat",
+      "target": "chapter_5_chapter_5_strlen"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdscat"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1125",
+      "weight": 1.0,
+      "source": "sds_sds_sdsjoinsds",
+      "target": "sds_sds_sdscatsds",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdscatsds",
+      "target": "sds_sds_sdslen"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdscatsds"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdscpy",
+      "target": "sds_sds_sdscpylen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdscpylen",
+      "target": "sds_sds_sdsalloc"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdscpylen",
+      "target": "sds_sds_sdslen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdscpylen",
+      "target": "sds_sds_sdssetlen"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdscpylen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1162",
+      "weight": 1.0,
+      "source": "sds_sds_sdstest",
+      "target": "sds_sds_sdscpy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L441",
+      "weight": 1.0,
+      "source": "sds_sds_sdscpy",
+      "target": "chapter_5_chapter_5_strlen"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdscpy"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdsfromlonglong",
+      "target": "sds_sds_sdsll2str"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L665",
+      "weight": 1.0,
+      "source": "sds_sds_sdscatfmt",
+      "target": "sds_sds_sdsll2str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L682",
+      "weight": 1.0,
+      "source": "sds_sds_sdscatfmt",
+      "target": "sds_sds_sdsull2str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdsfromlonglong"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sds_sds_sdscatprintf",
+      "target": "sds_sds_sdscatvprintf"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L537",
+      "weight": 1.0,
+      "source": "sds_sds_sdscatvprintf",
+      "target": "chapter_5_chapter_5_strlen"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdscatvprintf",
+      "target": "sds_sdsalloc_s_malloc"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdscatvprintf",
+      "target": "sds_sdsalloc_s_free"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L904",
+      "weight": 1.0,
+      "source": "sds_sds_sdscatrepr",
+      "target": "sds_sds_sdscatprintf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1172",
+      "weight": 1.0,
+      "source": "sds_sds_sdstest",
+      "target": "sds_sds_sdscatprintf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdscatprintf"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1194",
+      "weight": 1.0,
+      "source": "sds_sds_sdstest",
+      "target": "sds_sds_sdscatfmt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L617",
+      "weight": 1.0,
+      "source": "sds_sds_sdscatfmt",
+      "target": "sds_sds_sdslen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L625",
+      "weight": 1.0,
+      "source": "sds_sds_sdscatfmt",
+      "target": "chapter_5_chapter_5_strlen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L636",
+      "weight": 1.0,
+      "source": "sds_sds_sdscatfmt",
+      "target": "sds_sds_sdsavail"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L654",
+      "weight": 1.0,
+      "source": "sds_sds_sdscatfmt",
+      "target": "sds_sds_sdsinclen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1210",
+      "weight": 1.0,
+      "source": "sds_sds_sdstest",
+      "target": "sds_sds_sdstrim",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L730",
+      "weight": 1.0,
+      "source": "sds_sds_sdstrim",
+      "target": "sds_sds_sdslen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L736",
+      "weight": 1.0,
+      "source": "sds_sds_sdstrim",
+      "target": "sds_sds_sdssetlen"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdstrim"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1227",
+      "weight": 1.0,
+      "source": "sds_sds_sdstest",
+      "target": "sds_sds_sdsrange",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L757",
+      "weight": 1.0,
+      "source": "sds_sds_sdsrange",
+      "target": "sds_sds_sdslen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L779",
+      "weight": 1.0,
+      "source": "sds_sds_sdsrange",
+      "target": "sds_sds_sdssetlen"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdsrange"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L784",
+      "weight": 1.0,
+      "source": "sds_sds_sdstolower",
+      "target": "sds_sds_sdslen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L791",
+      "weight": 1.0,
+      "source": "sds_sds_sdstoupper",
+      "target": "sds_sds_sdslen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1265",
+      "weight": 1.0,
+      "source": "sds_sds_sdstest",
+      "target": "sds_sds_sdscmp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L811",
+      "weight": 1.0,
+      "source": "sds_sds_sdscmp",
+      "target": "sds_sds_sdslen"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdssplitlen"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdsfreesplitres"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1282",
+      "weight": 1.0,
+      "source": "sds_sds_sdstest",
+      "target": "sds_sds_sdscatrepr",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdscatrepr"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L992",
+      "weight": 1.0,
+      "source": "sds_sds_sdssplitargs",
+      "target": "sds_sds_is_hex_digit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L997",
+      "weight": 1.0,
+      "source": "sds_sds_sdssplitargs",
+      "target": "sds_sds_hex_digit_to_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdssplitargs"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1093",
+      "weight": 1.0,
+      "source": "sds_sds_sdsmapchars",
+      "target": "sds_sds_sdslen"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdsjoin"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdsjoinsds"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sds_malloc",
+      "target": "sds_sdsalloc_s_malloc"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sds_malloc"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sds_realloc",
+      "target": "sds_sdsalloc_s_realloc"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sds_realloc"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sds_free",
+      "target": "sds_sdsalloc_s_free"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sds_free"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1326",
+      "weight": 1.0,
+      "source": "sds_sds_main",
+      "target": "sds_sds_sdstest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1151",
+      "weight": 1.0,
+      "source": "sds_sds_sdstest",
+      "target": "sds_sds_sdslen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "opensource/sds/sds.c",
+      "source_location": "L1293",
+      "weight": 1.0,
+      "source": "sds_sds_sdstest",
+      "target": "sds_sds_sdsavail"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_h",
+      "target": "sds_sds_sdslen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_h",
+      "target": "sds_sds_sdsavail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_h",
+      "target": "sds_sds_sdssetlen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": "L154",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_h",
+      "target": "sds_sds_sdsinclen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": "L180",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_h",
+      "target": "sds_sds_sdsalloc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opensource/sds/sds.h",
+      "source_location": "L197",
+      "weight": 1.0,
+      "source": "opensource_sds_sds_h",
+      "target": "sds_sds_sdssetalloc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "opensource/sds/sds.h",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_sds_sdslen",
+      "target": "sds_sds_sds_type"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sdslen"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_binary_safe_strings",
+      "target": "sds_sds_sdslen"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_c",
+      "target": "chapter_4_chapter_4_atof",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_c",
+      "target": "chapter_4_chapter_4_get_line",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_c",
+      "target": "chapter_4_chapter_4_push",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_c",
+      "target": "chapter_4_chapter_4_pop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_c",
+      "target": "chapter_4_chapter_4_clear",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_c",
+      "target": "chapter_4_chapter_4_getch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_c",
+      "target": "chapter_4_chapter_4_getch_single",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_c",
+      "target": "chapter_4_chapter_4_ungetch_single",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_c",
+      "target": "chapter_4_chapter_4_ungetch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_c",
+      "target": "chapter_4_chapter_4_ungets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_c",
+      "target": "chapter_4_chapter_4_getop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_c",
+      "target": "chapter_4_chapter_4_reversepolish",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L206",
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_c",
+      "target": "chapter_4_chapter_4_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chapter_4_chapter_4_reversepolish",
+      "target": "chapter_4_chapter_4_atof"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_push",
+      "target": "chapter_4_chapter_4_clear",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chapter_4_chapter_4_reversepolish",
+      "target": "chapter_4_chapter_4_push"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_push",
+      "target": "chapter_4_chapter_4_clear_"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_push",
+      "target": "chapter_4_chapter_4_pop"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_pop",
+      "target": "chapter_4_chapter_4_clear",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chapter_4_chapter_4_reversepolish",
+      "target": "chapter_4_chapter_4_pop"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_pop",
+      "target": "chapter_4_chapter_4_clear_"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L195",
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_reversepolish",
+      "target": "chapter_4_chapter_4_clear",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chapter_4_chapter_4_getop",
+      "target": "chapter_4_chapter_4_getch"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_getch",
+      "target": "chapter_4_chapter_4_ungetch"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "rationale_pushback_buffer",
+      "target": "chapter_4_chapter_4_getch"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_5_chapter_5_1_getch",
+      "target": "chapter_4_chapter_4_getch"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chapter_4_chapter_4_ungets",
+      "target": "chapter_4_chapter_4_ungetch"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chapter_4_chapter_4_getop",
+      "target": "chapter_4_chapter_4_ungetch"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "rationale_pushback_buffer",
+      "target": "chapter_4_chapter_4_ungetch"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_5_chapter_5_1_ungetch",
+      "target": "chapter_4_chapter_4_ungetch"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_ungets",
+      "target": "chapter_5_chapter_5_strlen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chapter_4_chapter_4_reversepolish",
+      "target": "chapter_4_chapter_4_getop"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_4_chapter_4_reversepolish",
+      "target": "chapter_4_chapter_4_clear_"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chapter-4/chapter-4.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "rationale_rpn_calculator",
+      "target": "chapter_4_chapter_4_reversepolish"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-3/excercise 3.1.c",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "chapter_3_excercise_3_1_c",
+      "target": "chapter_3_excercise_3_1_expand",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-3/excercise 3.1.c",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "chapter_3_excercise_3_1_c",
+      "target": "chapter_3_excercise_3_1_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-3/excercise 3.1.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chapter_3_excercise_3_1_main",
+      "target": "chapter_3_excercise_3_1_expand"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "chapter-3/excercise 3.1.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_3_excercise_3_1_expand",
+      "target": "chapter_2_excercise_2_4_squeeze"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chapter-3/excercise 3.1.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_3_excercise_3_1_main",
+      "target": "readme_getchar_loop"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-3/chapter-3.c",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "chapter_3_chapter_3_c",
+      "target": "chapter_3_chapter_3_print_binary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-3/chapter-3.c",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "chapter_3_chapter_3_c",
+      "target": "chapter_3_chapter_3_reverse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-3/chapter-3.c",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "chapter_3_chapter_3_c",
+      "target": "chapter_3_chapter_3_itoa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-3/chapter-3.c",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "chapter_3_chapter_3_c",
+      "target": "chapter_3_chapter_3_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chapter-2/excercise 2.9.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_9_print_binary",
+      "target": "chapter_3_chapter_3_print_binary"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-3/chapter-3.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chapter_3_chapter_3_itoa",
+      "target": "chapter_3_chapter_3_reverse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "chapter-3/chapter-3.c",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "chapter_3_chapter_3_reverse",
+      "target": "chapter_5_chapter_5_strlen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-3/chapter-3.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chapter_3_chapter_3_main",
+      "target": "chapter_3_chapter_3_itoa"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-2/excercise 2.4.c",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_4_c",
+      "target": "chapter_2_excercise_2_4_any",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-2/excercise 2.4.c",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_4_c",
+      "target": "chapter_2_excercise_2_4_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-2/excercise 2.4.c",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_4_main",
+      "target": "chapter_2_excercise_2_4_any",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chapter-2/excercise 2.4.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_4_main",
+      "target": "chapter_2_excercise_2_4_squeeze"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-2/chapter-2.c",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "chapter_2_chapter_2_c",
+      "target": "chapter_2_chapter_2_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-2/excercise 2.3.c",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_3_c",
+      "target": "chapter_2_excercise_2_3_squeeze",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-2/excercise 2.3.c",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_3_c",
+      "target": "chapter_2_excercise_2_3_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-2/excercise 2.3.c",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_3_main",
+      "target": "chapter_2_excercise_2_3_squeeze",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "chapter-2/excercise 2.3.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_3_main",
+      "target": "chapter_2_excercise_2_9_bitcount"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chapter-2/excercise 2.3.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_3_main",
+      "target": "readme_bit_manipulation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-2/excercise 2.9.c",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_9_c",
+      "target": "chapter_2_excercise_2_9_bitcount",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-2/excercise 2.9.c",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_9_c",
+      "target": "chapter_2_excercise_2_9_print_binary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-2/excercise 2.9.c",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_9_c",
+      "target": "chapter_2_excercise_2_9_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-2/excercise 2.9.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chapter_2_excercise_2_9_main",
+      "target": "chapter_2_excercise_2_9_bitcount"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "chapter-2/excercise 2.9.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_9_bitcount",
+      "target": "chapter_2_excercise_2_9_brian_kernighan_bitcount"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-2/excercise 2.9.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chapter_2_excercise_2_9_main",
+      "target": "chapter_2_excercise_2_9_print_binary"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "chapter-2/excercise 2.9.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_9_print_binary",
+      "target": "chapter_2_excercise_2_8_print_binary"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chapter-2/excercise 2.8.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_8_main",
+      "target": "chapter_2_excercise_2_9_main"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chapter-2/excercise 2.9.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_9_main",
+      "target": "readme_bit_manipulation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-2/excercise 2.8.c",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_8_c",
+      "target": "chapter_2_excercise_2_8_print_binary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-2/excercise 2.8.c",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_8_c",
+      "target": "chapter_2_excercise_2_8_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-2/excercise 2.8.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chapter_2_excercise_2_8_main",
+      "target": "chapter_2_excercise_2_8_print_binary"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chapter-2/excercise 2.8.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_8_main",
+      "target": "readme_bit_manipulation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-2/excercise 2.6.c",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_6_c",
+      "target": "chapter_2_excercise_2_6_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "chapter-2/excercise 2.6.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_6_main",
+      "target": "chapter_2_excercise_2_6_any"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-5/chapter 5.c",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "chapter_5_chapter_5_c",
+      "target": "chapter_5_chapter_5_strlen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-5/chapter 5.c",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "chapter_5_chapter_5_c",
+      "target": "chapter_5_chapter_5_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "pointer/pointer.c",
+      "source_location": "L164",
+      "weight": 1.0,
+      "source": "pointer_pointer_main",
+      "target": "chapter_5_chapter_5_strlen"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "chapter-5/chapter 5.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_5_chapter_5_strlen",
+      "target": "chapter_5_chapter_5_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "chapter_5_chapter_5_1_c",
+      "target": "chapter_5_chapter_5_1_getch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "chapter_5_chapter_5_1_c",
+      "target": "chapter_5_chapter_5_1_ungetch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "chapter_5_chapter_5_1_c",
+      "target": "chapter_5_chapter_5_1_get_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "chapter_5_chapter_5_1_c",
+      "target": "chapter_5_chapter_5_1_getfloat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "chapter_5_chapter_5_1_c",
+      "target": "chapter_5_chapter_5_1_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chapter_5_chapter_5_1_get_int",
+      "target": "chapter_5_chapter_5_1_getch"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chapter_5_chapter_5_1_getfloat",
+      "target": "chapter_5_chapter_5_1_getch"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chapter_5_chapter_5_1_get_int",
+      "target": "chapter_5_chapter_5_1_ungetch"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chapter_5_chapter_5_1_getfloat",
+      "target": "chapter_5_chapter_5_1_ungetch"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "rationale_pointer_out_param",
+      "target": "chapter_5_chapter_5_1_get_int"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chapter_5_chapter_5_1_main",
+      "target": "chapter_5_chapter_5_1_getfloat"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chapter-5/chapter 5.1.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "rationale_pointer_out_param",
+      "target": "chapter_5_chapter_5_1_getfloat"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer.c",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "pointer_pointer_c",
+      "target": "pointer_pointer_increment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer.c",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "pointer_pointer_c",
+      "target": "pointer_pointer_sumofelements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer.c",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "pointer_pointer_c",
+      "target": "pointer_pointer_print",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer.c",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "pointer_pointer_c",
+      "target": "pointer_pointer_func1d",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer.c",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "pointer_pointer_c",
+      "target": "pointer_pointer_func2d",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer.c",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "pointer_pointer_c",
+      "target": "pointer_pointer_func3d",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer.c",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "pointer_pointer_c",
+      "target": "pointer_pointer_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pointer_pointer_main",
+      "target": "pointer_pointer_increment"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "pointer/pointer.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "rationale_call_by_reference",
+      "target": "pointer_pointer_increment"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pointer_pointer_main",
+      "target": "pointer_pointer_sumofelements"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pointer_pointer_main",
+      "target": "pointer_pointer_print"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pointer_pointer_main",
+      "target": "pointer_pointer_func1d"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pointer_pointer_main",
+      "target": "pointer_pointer_func2d"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "pointer/pointer.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "rationale_multidim_array_pointer",
+      "target": "pointer_pointer_func2d"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pointer_pointer_main",
+      "target": "pointer_pointer_func3d"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "pointer/pointer.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "rationale_multidim_array_pointer",
+      "target": "pointer_pointer_func3d"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "pointer/practice problem/1.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "practice_problem_1_main",
+      "target": "pointer_pointer_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer and dynamic memory.c",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "pointer_pointer_and_dynamic_memory_c",
+      "target": "pointer_pointer_and_dynamic_memory_square",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer and dynamic memory.c",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "pointer_pointer_and_dynamic_memory_c",
+      "target": "pointer_pointer_and_dynamic_memory_squareofsum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer and dynamic memory.c",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "pointer_pointer_and_dynamic_memory_c",
+      "target": "pointer_pointer_and_dynamic_memory_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer and dynamic memory.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pointer_pointer_and_dynamic_memory_squareofsum",
+      "target": "pointer_pointer_and_dynamic_memory_square"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "pointer/pointer and dynamic memory.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "rationale_dynamic_memory",
+      "target": "pointer_pointer_and_dynamic_memory_main"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "pointer/pointer as function returns.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "pointer_pointer_as_function_returns_add",
+      "target": "pointer_pointer_and_dynamic_memory_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer as function returns.c",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "pointer_pointer_as_function_returns_c",
+      "target": "pointer_pointer_as_function_returns_printhelloworld",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer as function returns.c",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "pointer_pointer_as_function_returns_c",
+      "target": "pointer_pointer_as_function_returns_add",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer as function returns.c",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "pointer_pointer_as_function_returns_c",
+      "target": "pointer_pointer_as_function_returns_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer as function returns.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pointer_pointer_as_function_returns_main",
+      "target": "pointer_pointer_as_function_returns_printhelloworld"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/pointer as function returns.c",
+      "source_location": null,
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pointer_pointer_as_function_returns_main",
+      "target": "pointer_pointer_as_function_returns_add"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "pointer/pointer as function returns.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "rationale_pointer_as_return",
+      "target": "pointer_pointer_as_function_returns_add"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/function pointer.c",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "pointer_function_pointer_c",
+      "target": "pointer_function_pointer_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pointer/practice problem/1.c",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "pointer_practice_problem_1_c",
+      "target": "practice_problem_1_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "chapter-2/excercise 2.4.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_4_squeeze",
+      "target": "chapter_2_excercise_2_6_any"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "chapter-2/excercise 2.4.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_4_squeeze",
+      "target": "readme_string_charset_filter"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "chapter-2/excercise 2.6.c",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "chapter_2_excercise_2_6_any",
+      "target": "readme_string_charset_filter"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_video_lecture",
+      "target": "readme_cc4e_chapter_1"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_hidden_header_pattern",
+      "target": "rationale_call_by_reference"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "rationale_dynamic_memory",
+      "target": "sds_readme_pluggable_allocator"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_dynamic_header_sizes",
+      "target": "sds_sds_sdshdr5"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_hidden_header_pattern",
+      "target": "sds_sds_sdshdr8"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_dynamic_header_sizes",
+      "target": "sds_sds_sdshdr8"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_dynamic_header_sizes",
+      "target": "sds_sds_sdshdr16"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_dynamic_header_sizes",
+      "target": "sds_sds_sdshdr32"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_dynamic_header_sizes",
+      "target": "sds_sds_sdshdr64"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_sds_library",
+      "target": "sds_sds_sds_type"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_hidden_header_pattern",
+      "target": "sds_sds_sds_type"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_libc_compat",
+      "target": "sds_sds_sds_type"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_pluggable_allocator",
+      "target": "sds_sdsalloc_s_malloc"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_pluggable_allocator",
+      "target": "sds_sdsalloc_s_realloc"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_pluggable_allocator",
+      "target": "sds_sdsalloc_s_free"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/testhelp.h",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_testhelp_test_cond",
+      "target": "sds_testhelp_test_report"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "sds_readme_redis_origin",
+      "target": "sds_readme_sds_library"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "getchar_eof_loop_pattern",
+      "label": "Files using the getchar()/EOF read loop pattern",
+      "nodes": [
+        "chapter_1_chapter_1_main",
+        "chapter_1_excercise_1_11_main",
+        "chapter_1_excercise_1_13_main",
+        "chapter_3_excercise_3_1_main"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chapter-1/chapter-1.c"
+    },
+    {
+      "id": "bit_manipulation_exercises",
+      "label": "Chapter 2 bit manipulation cluster",
+      "nodes": [
+        "chapter_2_excercise_2_3_main",
+        "chapter_2_excercise_2_8_main",
+        "chapter_2_excercise_2_9_main",
+        "chapter_2_excercise_2_9_print_binary"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "chapter-2/excercise 2.9.c"
+    },
+    {
+      "id": "charset_lookup_filter_family",
+      "label": "Charset lookup table string filter functions",
+      "nodes": [
+        "chapter_2_excercise_2_4_squeeze",
+        "chapter_2_excercise_2_6_any",
+        "readme_string_charset_filter"
+      ],
+      "relation": "implement",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "chapter-2/excercise 2.4.c"
+    },
+    {
+      "id": "hyper_sds_allocator_layer",
+      "label": "SDS pluggable allocator layer",
+      "nodes": [
+        "sds_sds_sds_malloc",
+        "sds_sds_sds_realloc",
+        "sds_sds_sds_free",
+        "sds_sdsalloc_s_malloc",
+        "sds_sdsalloc_s_realloc",
+        "sds_sdsalloc_s_free"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sdsalloc.h"
+    },
+    {
+      "id": "hyper_sds_creation_destruction_api",
+      "label": "SDS string lifecycle API (create/duplicate/free)",
+      "nodes": [
+        "sds_sds_sdsnewlen",
+        "sds_sds_sdsnew",
+        "sds_sds_sdsempty",
+        "sds_sds_sdsdup",
+        "sds_sds_sdsfree"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "opensource/sds/sds.c"
+    },
+    {
+      "id": "hyper_learner_malloc_exercises",
+      "label": "Learner pointer/malloc exercises",
+      "nodes": [
+        "pointer_pointer_and_dynamic_memory_main",
+        "pointer_pointer_as_function_returns_add",
+        "pointer_pointer_main"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "pointer/pointer and dynamic memory.c"
+    }
+  ],
+  "built_at_commit": "3adbc2fececb94771e223229138381cda001b3e4"
+}

@@ -1,0 +1,142 @@
+{
+  "/Users/shakil/Applications/task/learning c/chapter-1/excercise 1.13.c": {
+    "mtime": 1778437393.4040842,
+    "ast_hash": "8312b037ab7e3f61dcef0f45934c2dea",
+    "semantic_hash": "8312b037ab7e3f61dcef0f45934c2dea"
+  },
+  "/Users/shakil/Applications/task/learning c/chapter-1/excercise 1.17.c": {
+    "mtime": 1778499168.010388,
+    "ast_hash": "5e1ba6ad5204f085c30728bf8b06678b",
+    "semantic_hash": "5e1ba6ad5204f085c30728bf8b06678b"
+  },
+  "/Users/shakil/Applications/task/learning c/chapter-1/chapter-1.c": {
+    "mtime": 1778502904.8886917,
+    "ast_hash": "5ec962e75435e2eb3bf7ca97c49111a6",
+    "semantic_hash": "5ec962e75435e2eb3bf7ca97c49111a6"
+  },
+  "/Users/shakil/Applications/task/learning c/chapter-1/excercise 1.11.c": {
+    "mtime": 1778425943.1933782,
+    "ast_hash": "6a5c946ba3027a4ae46bedfaa315bfe4",
+    "semantic_hash": "6a5c946ba3027a4ae46bedfaa315bfe4"
+  },
+  "/Users/shakil/Applications/task/learning c/chapter-1/excercise 1.12.c": {
+    "mtime": 1778435254.497309,
+    "ast_hash": "d2d0073e9e246961cb272f5f335a528d",
+    "semantic_hash": "d2d0073e9e246961cb272f5f335a528d"
+  },
+  "/Users/shakil/Applications/task/learning c/opensource/opensource_test.c": {
+    "mtime": 1780207756.4077747,
+    "ast_hash": "413caa0c6f2dd9ae89efe0d053f172f5",
+    "semantic_hash": "413caa0c6f2dd9ae89efe0d053f172f5"
+  },
+  "/Users/shakil/Applications/task/learning c/opensource/sds/sds.c": {
+    "mtime": 1780199709.977369,
+    "ast_hash": "5d7341418e265972efaa9526aca1268d",
+    "semantic_hash": "5d7341418e265972efaa9526aca1268d"
+  },
+  "/Users/shakil/Applications/task/learning c/opensource/sds/testhelp.h": {
+    "mtime": 1780198810.725661,
+    "ast_hash": "d546b297df7b0d25d6d9a69d5611017b",
+    "semantic_hash": "d546b297df7b0d25d6d9a69d5611017b"
+  },
+  "/Users/shakil/Applications/task/learning c/opensource/sds/sds.h": {
+    "mtime": 1780198810.725454,
+    "ast_hash": "9d6c2810b73c49b650854c4af54a912b",
+    "semantic_hash": "9d6c2810b73c49b650854c4af54a912b"
+  },
+  "/Users/shakil/Applications/task/learning c/opensource/sds/sdsalloc.h": {
+    "mtime": 1780201988.2826157,
+    "ast_hash": "3a40b5be2bdc8be8ec11297f029100c6",
+    "semantic_hash": "3a40b5be2bdc8be8ec11297f029100c6"
+  },
+  "/Users/shakil/Applications/task/learning c/chapter-4/chapter-4.c": {
+    "mtime": 1779638644.9604218,
+    "ast_hash": "8eeed5e4f3f3ce73c4b4e312d97f810d",
+    "semantic_hash": "8eeed5e4f3f3ce73c4b4e312d97f810d"
+  },
+  "/Users/shakil/Applications/task/learning c/chapter-3/excercise 3.1.c": {
+    "mtime": 1779127478.486508,
+    "ast_hash": "5c2c7195a13932e43d04a9a10b7f5e7c",
+    "semantic_hash": "5c2c7195a13932e43d04a9a10b7f5e7c"
+  },
+  "/Users/shakil/Applications/task/learning c/chapter-3/chapter-3.c": {
+    "mtime": 1779129238.749333,
+    "ast_hash": "41648aae814db3d5f36137627a74a16f",
+    "semantic_hash": "41648aae814db3d5f36137627a74a16f"
+  },
+  "/Users/shakil/Applications/task/learning c/chapter-2/excercise 2.4.c": {
+    "mtime": 1779036274.0787604,
+    "ast_hash": "67a07196e9608be3a3c5a124d7b3ed9a",
+    "semantic_hash": "67a07196e9608be3a3c5a124d7b3ed9a"
+  },
+  "/Users/shakil/Applications/task/learning c/chapter-2/chapter-2.c": {
+    "mtime": 1779111007.3323972,
+    "ast_hash": "7f30a0bbd446b13ee98e2bb879ffbb65",
+    "semantic_hash": "7f30a0bbd446b13ee98e2bb879ffbb65"
+  },
+  "/Users/shakil/Applications/task/learning c/chapter-2/excercise 2.3.c": {
+    "mtime": 1779035298.572598,
+    "ast_hash": "a7a6d6a2bd7ba9b0b36facf2343e9288",
+    "semantic_hash": "a7a6d6a2bd7ba9b0b36facf2343e9288"
+  },
+  "/Users/shakil/Applications/task/learning c/chapter-2/excercise 2.9.c": {
+    "mtime": 1779110997.015075,
+    "ast_hash": "7c45aaf5e411cab42b90ddbd81f37e9a",
+    "semantic_hash": "7c45aaf5e411cab42b90ddbd81f37e9a"
+  },
+  "/Users/shakil/Applications/task/learning c/chapter-2/excercise 2.8.c": {
+    "mtime": 1779110066.0335374,
+    "ast_hash": "3c3880bd027cc2385de12f7956b6b230",
+    "semantic_hash": "3c3880bd027cc2385de12f7956b6b230"
+  },
+  "/Users/shakil/Applications/task/learning c/chapter-2/excercise 2.6.c": {
+    "mtime": 1779045060.303211,
+    "ast_hash": "c44aa46b9c70c85ff3e3fb1e6c8f2858",
+    "semantic_hash": "c44aa46b9c70c85ff3e3fb1e6c8f2858"
+  },
+  "/Users/shakil/Applications/task/learning c/chapter-5/chapter 5.c": {
+    "mtime": 1780163852.7863169,
+    "ast_hash": "c2d842c368f4a709dbdae0c42c5dac7b",
+    "semantic_hash": "c2d842c368f4a709dbdae0c42c5dac7b"
+  },
+  "/Users/shakil/Applications/task/learning c/chapter-5/chapter 5.1.c": {
+    "mtime": 1780162432.5085878,
+    "ast_hash": "5db837a85ae21df557feb61f1065b8f8",
+    "semantic_hash": "5db837a85ae21df557feb61f1065b8f8"
+  },
+  "/Users/shakil/Applications/task/learning c/pointer/pointer.c": {
+    "mtime": 1780118754.2547472,
+    "ast_hash": "f90ffec91e790ee73810e63de95c7804",
+    "semantic_hash": "f90ffec91e790ee73810e63de95c7804"
+  },
+  "/Users/shakil/Applications/task/learning c/pointer/pointer and dynamic memory.c": {
+    "mtime": 1780126794.4442656,
+    "ast_hash": "1735e25f22efabe9243d022077feef3f",
+    "semantic_hash": "1735e25f22efabe9243d022077feef3f"
+  },
+  "/Users/shakil/Applications/task/learning c/pointer/pointer as function returns.c": {
+    "mtime": 1780127566.117741,
+    "ast_hash": "4b8462d77f707bd1f7593f90a50db56f",
+    "semantic_hash": "4b8462d77f707bd1f7593f90a50db56f"
+  },
+  "/Users/shakil/Applications/task/learning c/pointer/function pointer.c": {
+    "mtime": 1780127766.4077587,
+    "ast_hash": "d08049ca3e567629ca55f0f7a725a221",
+    "semantic_hash": "d08049ca3e567629ca55f0f7a725a221"
+  },
+  "/Users/shakil/Applications/task/learning c/pointer/practice problem/1.c": {
+    "mtime": 1780148359.5299704,
+    "ast_hash": "5fd3e78fc1a0d48c096d534400913eab",
+    "semantic_hash": "5fd3e78fc1a0d48c096d534400913eab"
+  },
+  "/Users/shakil/Applications/task/learning c/README.md": {
+    "mtime": 1778338612.6264212,
+    "ast_hash": "a3f9488e265c7c5d08ce21e31ce0b4a3",
+    "semantic_hash": "a3f9488e265c7c5d08ce21e31ce0b4a3"
+  },
+  "/Users/shakil/Applications/task/learning c/opensource/sds/README.md": {
+    "mtime": 1780198810.7248504,
+    "ast_hash": "6760f7c355cede417828568fe0635b13",
+    "semantic_hash": "6760f7c355cede417828568fe0635b13"
+  }
+}
