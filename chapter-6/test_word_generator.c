@@ -44,7 +44,7 @@ struct key keytab[] = {
 
 
 #define NKEYS (sizeof(keytab) / sizeof(keytab[0]))
-#define NWORDS 10000000
+#define NWORDS 10
 
 int main(void)
 {
